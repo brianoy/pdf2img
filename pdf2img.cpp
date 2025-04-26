@@ -12,7 +12,7 @@
 #include <windows.h>
 
 namespace fs = std::filesystem;
-using namespace poppler;
+using namespace poppler; 
 
 void render_page_to_png(poppler::document* doc, const std::filesystem::path& output_dir, const std::string& base_name) {
     int num_pages = doc->pages();
