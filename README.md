@@ -16,8 +16,13 @@ C:\vcpkg\installed\x64-windows\include
 
 ## package安裝
 
+```bash
 vcpkg install poppler
-
 vcpkg install cairo
-
 vcpkg integrate install
+```
+
+# License
+
+[poppler](https://gitlab.freedesktop.org/poppler/poppler) 程式庫是根據GPL授權
+[poppler-windows](https://github.com/oschwartz10612/poppler-windows) 編譯腳本是根據MIT授權
